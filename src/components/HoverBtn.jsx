@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function HoverBtn({imgUrl, title, className}){
+function HoverBtn({imgUrl, title, className, className1, className2}){
 
     const [isImageVisible, setIsImageVisible] = useState(false);
       
@@ -16,9 +16,9 @@ function HoverBtn({imgUrl, title, className}){
             <button
                 onMouseEnter={handelMouseEnter}
                 onMouseLeave={handelMouseLeave}
-                className="relative rounded-full px-5 py-3 border border-gray-400 hover:invisible"
+                className={`relative rounded-full border border-gray-400 hover:invisible ${className1}`}
             >
-            <span className="p-3 text-xs text-gray-500 font-sans">{title}</span>
+            <span className={`p-3 text-xs font-sans ${className2}`}>{title}</span>
             {isImageVisible && (
                 <img src={imgUrl} alt="Arrow button image" className={`absolute top-0 -mt-6 hover:visible ${className}`}/>
             )}

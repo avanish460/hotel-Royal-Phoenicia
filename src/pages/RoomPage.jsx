@@ -57,7 +57,7 @@ function RoomPage() {
        </div>
       
         <div className="flex justify-center w-full p-10 mt-10 mb-30">
-          <HoverBtn imgUrl={ArrowButton} title={"Hotel"} className="left-0"/>
+          <HoverBtn imgUrl={ArrowButton} title={"Hotel"} className="left-0" className1={"px-5 py-3"} className2={"text-gray-500"}/>
         </div>
 
         <div className="relative flex justify-center h-screen p-20 bg-orange-50">
