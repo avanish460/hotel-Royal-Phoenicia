@@ -3,7 +3,7 @@ import React from 'react';
 
 function Button({ children, onClick, className }) {
   return (
-    <button onClick={onClick} className={`rounded-full px-4 py-2 font-semibold text-sm ${className}`}>
+    <button onClick={onClick} className={`rounded-full px-6 py-3 font-semibold text-sm ${className}`}>
       {children}
     </button>
   );
