@@ -8,6 +8,8 @@ import RoomImage3 from '../assets/rDrawing.png';
 import ArrowButton from '../assets/hoverArrow.svg';
 import Button from '../components/Button';
 import Card from '../components/Card';
+import HotelPage from './HotelPage';
+import HoverBtn from '../components/HoverBtn';
 
 const roomImages = [RoomImage1, RoomImage2, RoomImage3];
 
@@ -54,13 +56,11 @@ function RoomPage() {
         </h1>
        </div>
       
-        <div className="text-center p-10 mt-10 mb-10">
-          <Button className="border border-gray-500 text-gray-400 font-sans">
-            <span className="p-3 text-xs">Hotel</span>
-          </Button>
+        <div className="flex justify-center w-full p-10 mt-10 mb-30">
+          <HoverBtn imgUrl={ArrowButton} title={"Hotel"} className="left-0"/>
         </div>
 
-        <div className="relative flex justify-center h-screen">
+        <div className="relative flex justify-center h-screen p-20 bg-orange-50">
       {/* Image Carousel */}
       {roomImages.map((image, index) => (
         <div
@@ -88,6 +88,11 @@ function RoomPage() {
             <p>Family-Friendly Amenities</p>
         </Card>
     </div>
+    <div className="w-full bg-orange-50">
+        <HotelPage />
+        
+    </div>
+    
     </div>
     
   );
