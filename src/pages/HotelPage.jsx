@@ -12,6 +12,7 @@ import MoreBtn from '../assets/moreBtn1.png'
 import Button from '../components/Button';
 import HoverBtn from '../components/HoverBtn';
 import PackageCard from '../components/PackageCard';
+import HorizontalScrollbar from '../components/HorizontalScrollbar';
 
 function HotelPage(){
     
@@ -33,11 +34,12 @@ function HotelPage(){
                 <h1 className="text-5xl text-gray-950 font-serif tracking-widest mt-20 p-15">Stay packages</h1>
                 </div>
                 
-                <div className="flex flex-nowrap ml-30">
+                <HorizontalScrollbar>
                     <PackageCard packageImgUrl={PackageImg1} btnUrl={MoreBtn} title={"Royal Weekend Escape Package"} subtitle={"FROM BHD 250 / Per Person / 3 Night"}/>
                     <PackageCard packageImgUrl={PackageImg3} btnUrl={MoreBtn} title={"Family Fun Staycation"} subtitle={"FROM BHD 150 / 4 Person / 2 Night"}/>
                     <PackageCard packageImgUrl={PackageImg2} btnUrl={MoreBtn} title={"Family Fun Staycation"} subtitle={"FROM BHD 150 / 4 Person / 2 Night"}/>
-                </div>
+                </HorizontalScrollbar>
+                
                 <div className="flex justify-center">
                     <div className="w-250 border-t border-gray-500 mt-10 p-5"></div>
                 </div>

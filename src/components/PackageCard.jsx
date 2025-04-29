@@ -3,8 +3,8 @@ import HoverBtn from "./HoverBtn";
 
 function PackageCard({packageImgUrl, btnUrl, title, subtitle}){
     return (
-        <div className="p-3">
-            <div className="flex justify-center w-120 h-90 border border-gray-500">
+        <div className="inline-block p-3">
+            <div className="relative flex justify-center w-120 h-90 border border-gray-500">
                     <img src={packageImgUrl} alt={title} />
                         <div className="absolute flex flex-col w-114 h-84 mt-3 border border-gray-500">
                             <span className="flex justify-center text-white text-xs p-10">All season</span>
