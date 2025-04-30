@@ -19,7 +19,7 @@ function HotelPage(){
     return (
         <div>
             <div className="flex justify-center">
-                <NumberButton number={"II"}/>
+                <NumberButton number={"II"} className={"text-gray-400"}/>
             </div>
             <div className="flex justify-between ml-1 mr-1">
                 <HoverCard imgUrl={Room} title={"Rooms"}/>
