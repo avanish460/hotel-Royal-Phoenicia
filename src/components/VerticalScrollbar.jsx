@@ -5,9 +5,9 @@ function VerticalScrollbar({ children }){
   return (
     <div className="w-90 h-105 overflow-y-auto whitespace-nowrap scroll-smooth"
     style={{
-      scrollbarWidth: 'none', /* Firefox */
-      WebkitOverflowScrolling: 'touch', /* iOS Safari */
-      msOverflowStyle: 'none', /* IE and Edge */
+      scrollbarWidth: 'none', 
+      WebkitOverflowScrolling: 'touch', 
+      msOverflowStyle: 'none', 
     }}
     >
       <img src={children[0]} alt="Checkin img" className="mb-20" />

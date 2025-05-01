@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import NumberButton from '../components/NumberButton';
-
-// Import your room images
 import RoomImage1 from '../assets/rPool.png';
 import RoomImage2 from '../assets/rbed.png';
 import RoomImage3 from '../assets/rDrawing.png';
 import ArrowButton from '../assets/hoverArrow.svg';
-import Button from '../components/Button';
 import Card from '../components/Card';
 import HotelPage from './HotelPage';
 import HoverBtn from '../components/HoverBtn';

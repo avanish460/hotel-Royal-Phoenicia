@@ -2,9 +2,6 @@ import React from "react";
 import venueImg from "../assets/EventImg.png";
 import NumberButton from "../components/NumberButton";
 import ScrollingText from "../components/ScrollingText";
-import Card from "../components/Card";
-import HoverBtn from "../components/HoverBtn";
-import arrowBtn from '../assets/hoverArrow.svg'
 import EventVerticalScroll from "../components/EventVerticalScroll";
 
 function EventTicker({EventItems}){
@@ -34,6 +31,9 @@ function EventPage(){
         <div className="relative z-0">
             <div className="flex justify-center p-10">
                 <div className="flex justify-center w-220 h-110">
+                    <div className="absolute -mt-10">
+                        <NumberButton number={"V"} className="text-gray-400"/>
+                    </div>
                     <EventVerticalScroll />
                     
                     <img src={venueImg} alt="Event venue img"/>

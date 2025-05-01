@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md shadow-md">
+    <nav className="absolute top-0 left-0 right-0 z-50 backdrop-blur-md shadow-md ">
       <div className="container mx-auto py-1">
         {/* Top Row: Menu Button, Logo, Booking Button (Desktop) */}
         <div className="hidden md:flex items-center justify-between">
