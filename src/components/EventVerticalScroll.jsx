@@ -2,21 +2,17 @@ import React from 'react';
 import Card from "../components/Card";
 import HoverBtn from "../components/HoverBtn";
 import arrowBtn from '../assets/hoverArrow.svg'
-import NumberButton from "../components/NumberButton";
 
 function EventVerticalScroll(){
 
   return (
     <div className="absolute z-10 flex justify-center p-40 w-100 h-110 overflow-y-auto scroll-smooth"
     style={{
-        scrollbarWidth: 'none', /* Firefox */
-        WebkitOverflowScrolling: 'touch', /* iOS Safari */
-        msOverflowStyle: 'none', /* IE and Edge */
+        scrollbarWidth: 'none', 
+        WebkitOverflowScrolling: 'touch', 
+        msOverflowStyle: 'none', 
         }}
     >
-        <div className="absolute -mt-50">
-            <NumberButton number={"V"} className="text-gray-400"/>
-        </div>
         <div className="absolute flex justify-center p-20 -mt-50">
             <Card>
                 <h1 className="text-xl font-serif text-black tracking-wider pb-1">For Companies</h1>
@@ -35,6 +31,7 @@ function EventVerticalScroll(){
                 <HoverBtn imgUrl={arrowBtn} title={"More"} className1={"px-2 py-1 mt-5"} className="w-14 h-14" />
             </Card>
         </div>
+        <div className="absolute flex justify-center mt-200 w-70 h-100"></div>
     </div>
   );
 };

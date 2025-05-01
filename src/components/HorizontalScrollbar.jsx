@@ -37,9 +37,9 @@ function HorizontalScrollbar({ children }){
         ref={containerRef}
         className="overflow-x-auto whitespace-nowrap scroll-smooth pl-30"
         style={{
-          scrollbarWidth: 'none', /* Firefox */
-          WebkitOverflowScrolling: 'touch', /* iOS Safari */
-          msOverflowStyle: 'none', /* IE and Edge */
+          scrollbarWidth: 'none', 
+          WebkitOverflowScrolling: 'touch', 
+          msOverflowStyle: 'none', 
         }}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}

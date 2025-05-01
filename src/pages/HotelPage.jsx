@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import NumberButton from '../components/NumberButton';
 import Pool from '../assets/hoverPool.png'
 import Room from '../assets/hoverRoom.png'
@@ -9,7 +9,6 @@ import PackageImg1 from '../assets/PackageImg1.png'
 import PackageImg2 from '../assets/PackageImg2.png'
 import PackageImg3 from '../assets/PackageImg3.png'
 import MoreBtn from '../assets/moreBtn1.png'
-import Button from '../components/Button';
 import HoverBtn from '../components/HoverBtn';
 import PackageCard from '../components/PackageCard';
 import HorizontalScrollbar from '../components/HorizontalScrollbar';

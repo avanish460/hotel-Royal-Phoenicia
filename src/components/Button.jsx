@@ -1,4 +1,3 @@
-// src/components/Button/Button.jsx
 import React from 'react';
 
 function Button({ children, onClick, className }) {
@@ -9,4 +8,4 @@ function Button({ children, onClick, className }) {
   );
 }
 
-export default Button; // <--- This is the key!
+export default Button; 
