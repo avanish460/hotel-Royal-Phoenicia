@@ -1,6 +1,7 @@
 import React from 'react';
 
 function VerticalScrollbar({ children }){
+
   return (
     <div className="w-90 h-105 overflow-y-auto whitespace-nowrap scroll-smooth"
     style={{
