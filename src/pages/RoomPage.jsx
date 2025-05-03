@@ -32,66 +32,76 @@ function RoomPage() {
   }, []);
 
   return (
-    <div>
-        <div className="flex justify-center w-full h-60">
-            <NumberButton number={"I"} className={"text-gray-400"}/>
+    <div className="bg-orange-50">
+      <div className="bg-gray-50">
+        <div className="flex justify-center w-full -mt-35 md:-mt-0 h-40 sm:h-50 md:h-60">
+          <div className="mt-20 md:mt-0">
+            <NumberButton number={"I"} className={"text-gray-400 font-serif"} />
+          </div>
         </div>
 
         {/* Intro Text */}
         <div
-        className={`text-center font-serif text-4xl p-5 z-20 transition-opacity duration-5000 ${
-          showIntroText ? 'opacity-100' : 'opacity-0'
-        }`}
-      >
-        <h1 className="text-gray-600">
-          The stay at Wellness & pool Hotel
-        </h1>
-        <h1 className="text-gray-500">
-          Royal Phoenicia means enjoying every moment.
-          <br />
-          Relax. Find inspiration. Be fascinated.
-        </h1>
-       </div>
-      
-        <div className="flex justify-center w-full p-10 mt-10 mb-30">
-          <HoverBtn imgUrl={ArrowButton} title={"Hotel"} className="left-0" className1={"px-5 py-3"} className2={"text-gray-500"}/>
+          className={`text-center font-serif tracking-wider text-xl p-5 z-20 transition-opacity duration-5000 ${
+            showIntroText ? 'opacity-100' : 'opacity-0'
+          } sm:text-2xl md:text-3xl lg:text-4xl`}
+        >
+          <h1 className="text-gray-800 opacity-90">
+            The stay at Wellness & pool Hotel
+          </h1>
+          <h1 className="text-gray-800 text-lg sm:text-2xl md:text-3xl lg:text-4xl opacity-70">
+            Royal Phoenicia means enjoying every moment.
+            <br />
+            Relax. Find inspiration. Be fascinated.
+          </h1>
         </div>
 
-        <div className="relative flex justify-center h-screen p-20 bg-orange-50">
-      {/* Image Carousel */}
-      {roomImages.map((image, index) => (
-        <div
-          key={index}
-          className={`absolute w-250 h-110 transition-opacity duration-1000 ease-in-out ${
-            index === currentImageIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-          style={{
-            backgroundImage: `url(${image})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
+        <div className="flex justify-center w-full p-20 mt-10 mb-20">
+          <HoverBtn
+            imgUrl={ArrowButton}
+            title={"Hotel"}
+            className="h-19 sm:h-20 md:h-25 left-0 ml-2 sm:ml-2 md:ml-0"
+            className1={"px-5 py-3"}
+            className2={"text-gray-500"}
+          />
         </div>
-      ))}
-        <Card>
-            <p>Favorite hotel</p>
-            <br />
-            <p>Business and Event Spaces</p>
-            <br />
-            <p>Diverse Dining Options</p>
-            <br />
-            <p>Multiple Swimming Pools</p>
-            <br />
-            <p>Family-Friendly Amenities</p>
-        </Card>
-    </div>
-    <div className="w-full bg-orange-50">
-        <HotelPage />
         
+      </div>
+      <div className="absolute -bottom-135 sm:-bottom-150 md:-bottom-170 left-0 w-full h-15 bg-gradient-to-t from-orange-50 to-transparent" />
+      
+
+      <div className="relative flex justify-center h-screen p-4 sm:p-8 md:p-12 lg:p-20">
+        {/* Image Carousel */}
+        {roomImages.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute w-[90%] h-[39%] sm:w-[90%] sm:h-[50%] md:w-[90%] md:h-[70%] lg:w-[80%] lg:h-[90%] transition-opacity duration-1000 ease-in-out ${
+              index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+            }`}
+            style={{
+              backgroundImage: `url(${image})`,
+              backgroundSize: '100%',
+              backgroundPosition: 'center',
+            }}
+          >
+          </div>
+        ))}
+        <Card>
+          <p className="text-[10px] sm:text-xs md:text-sm lg:text-[16px]">Favorite hotel</p>
+          <br />
+          <p className="text-[10px] sm:text-xs md:text-sm lg:text-[16px]">Business and Event Spaces</p>
+          <br />
+          <p className="text-[10px] sm:text-xs md:text-sm lg:text-[16px]">Diverse Dining Options</p>
+          <br />
+          <p className="text-[10px] sm:text-xs md:text-sm lg:text-[16px]">Multiple Swimming Pools</p>
+          <br />
+          <p className="text-[10px] sm:text-xs md:text-sm lg:text-[16px]">Family-Friendly Amenities</p>
+        </Card>
+      </div>
+      <div className="w-full bg-orange-50 -mt-30 sm:-mt-30 md:mt-40">
+        <HotelPage />
+      </div>
     </div>
-    
-    </div>
-    
   );
 }
 

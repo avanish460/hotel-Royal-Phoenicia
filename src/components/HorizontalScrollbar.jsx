@@ -35,7 +35,7 @@ function HorizontalScrollbar({ children }){
     return (
       <div
         ref={containerRef}
-        className="overflow-x-auto whitespace-nowrap scroll-smooth pl-30"
+        className="overflow-x-auto whitespace-nowrap scroll-smooth pl-20 sm:pl-25 md:pl-40"
         style={{
           scrollbarWidth: 'none', 
           WebkitOverflowScrolling: 'touch', 
