@@ -75,7 +75,7 @@ function RoomPage() {
         {roomImages.map((image, index) => (
           <div
             key={index}
-            className={`absolute w-[90%] h-[25%] sm:w-[90%] sm:h-[50%] md:w-[90%] md:h-[70%] lg:w-[80%] lg:h-[90%] transition-opacity duration-1000 ease-in-out ${
+            className={`absolute w-[90%] h-[20%] sm:w-[90%] sm:h-[50%] md:w-[90%] md:h-[70%] lg:w-[80%] lg:h-[90%] transition-opacity duration-1000 ease-in-out ${
               index === currentImageIndex ? 'opacity-100' : 'opacity-0'
             }`}
             style={{

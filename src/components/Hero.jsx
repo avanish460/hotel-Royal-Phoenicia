@@ -38,7 +38,7 @@ function Hero() {
       ></div>
 
       {/* Content Overlay */}
-      <div className="relative z-10 px-4 md:px-8 lg:px-16 mb-50 sm:mb-20 md:mb-4 lg:mb-4 text-center">
+      <div className="relative z-10 px-4 md:px-8 lg:px-16 mb-70 sm:mb-20 md:mb-4 lg:mb-4 text-center">
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-serif leading-tight">
           Hotel <br/> Royal Phoenicia
         </h1>
@@ -48,7 +48,7 @@ function Hero() {
         {/* You might want to add a button or more content here */}
       </div>
 
-      <div className="absolute bottom-68 md:bottom-8 lg:bottom-8 left-11 z-30 text-gray-300 text-xs font-thin">
+      <div className="absolute bottom-87 md:bottom-8 lg:bottom-8 left-11 z-30 text-gray-300 text-xs font-thin">
         <span>IMPORTANT <br/> INFO</span>
       </div>
 

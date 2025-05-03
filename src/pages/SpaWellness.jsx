@@ -27,7 +27,7 @@ function SpaWellness(){
             </div>
             <div className="flex justify-center">
                 <div className="absolute z-10 -mt-15 sm:-mt-20 md:-mt-25">
-                    <HoverBtn imgUrl={MoreBtn} title={"Spa & Wellness"} className={"left-5 top-2 w-10 h-10 sm:w-15 sm:h-15 md:w-22 md:h-22 sm:top-0 md:-top-3 sm:left-5 md:left-5 opacity-100"} className1={"px-1 py-1 sm:px-2 sm:py-2 md:px-3 md:py-2 backdrop-blur-xs opacity-100"} className2={"text-[8px] sm:text-[10px] md:text-xs text-white font-sans tracking-wider"}/>
+                    <HoverBtn imgUrl={MoreBtn} title={"Spa & Wellness"} className={"left-5 top-2 w-10 h-10 sm:w-15 sm:h-15 md:w-22 md:h-22 sm:top-0 md:-top-3 sm:left-5 md:left-5 opacity-100"} className1={"px-1 py-1 sm:px-2 sm:py-2 md:px-3 md:py-2 backdrop-blur-xs opacity-100"} className2={"text-[6px] sm:text-[10px] md:text-xs text-white font-sans tracking-wider"}/>
                 </div>
             </div>
         </div>

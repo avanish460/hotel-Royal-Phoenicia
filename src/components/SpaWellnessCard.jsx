@@ -3,7 +3,7 @@ import React from "react";
 function SpaWellnessCard(props) {
   return (
     <div className="overflow-hidden">
-      <div className="relative w-[34vw] sm:w-[35vw] md:w-[35vw] lg:w-[33vw] h-[30vh] sm:h-[75vh] md:h-[95vh] lg:h-[120vh] border border-gray-500 transition-transform duration-300 hover:scale-105">
+      <div className="relative w-[34vw] sm:w-[35vw] md:w-[35vw] lg:w-[33vw] h-[25vh] sm:h-[75vh] md:h-[95vh] lg:h-[120vh] border border-gray-500 transition-transform duration-300 hover:scale-105">
         <div>
           <div className="flex flex-col text-center">
             <div className="flex justify-center">
@@ -15,7 +15,7 @@ function SpaWellnessCard(props) {
               </span>
             </div>
             <div className="flex justify-center">
-              <span className="absolute w-[80%] sm:w-[80%] md:w-[80%] text-[7px] text-[7px] sm:text-xs md:text-sm text-center text-white mt-[80%] sm:mt-[90%] md:mt-[90%] p-2 opacity-0 hover:opacity-100 transition-all duration-300">
+              <span className="absolute w-[80%] sm:w-[80%] md:w-[80%] text-[5px] sm:text-xs md:text-sm text-center text-white mt-[80%] sm:mt-[90%] md:mt-[90%] p-2 opacity-0 hover:opacity-100 transition-all duration-300">
                 {props.content}
               </span>
             </div>
