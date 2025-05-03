@@ -16,7 +16,7 @@ import HorizontalScrollbar from '../components/HorizontalScrollbar';
 function HotelPage() {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center -mt-80 sm:-mt-0">
         <NumberButton number={"II"} className={"text-gray-400 font-serif"} />
       </div>
       <div className="flex justify-between">
@@ -28,7 +28,7 @@ function HotelPage() {
         <HoverBtn
           imgUrl={ArrowButton}
           title={"Accommodation"}
-          className="h-19 sm:h-20 md:h-25 ml-4 sm:ml-4 md:ml-2"
+          className="h-15 sm:h-20 md:h-25 ml-5 sm:ml-4 md:ml-2"
           className1={"px-4 py-2 sm:px-5 sm:py-3 md:px-6 md:py-4 lg:px-7 lg:py-5"}
           className2={"text-gray-500"}
         />

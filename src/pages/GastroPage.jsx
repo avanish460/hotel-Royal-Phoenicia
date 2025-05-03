@@ -15,7 +15,7 @@ function GastroPage() {
                 <NumberButton number={"IV"} className="text-md font-serif text-gray-400" />
             </div>
             <div className="text-center p-4 sm:p-6 md:p-8 lg:p-10">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif tracking-widest">
+                <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-serif tracking-widest">
                     Exceptional gastronomy
                     <br />
                     served in elegant spaces.
@@ -29,10 +29,10 @@ function GastroPage() {
                         {dining}
                     </VerticalScrollbar>
                 </div>
-                <div className="w-[80%] sm:w-[70%] md:w-[30%] lg:w-[25%] md:ml-20">
-                    <h2 className="text-2xl font-serif tracking-widest font-light">About Us</h2>
+                <div className="w-[50%] sm:w-[70%] md:w-[30%] lg:w-[25%] md:ml-20">
+                    <h2 className="text-xs sm:text-2xl font-serif tracking-widest font-light">About Us</h2>
                     <div className="flex flex-row">
-                        <span className="text-[8px] sm:text-xs text-gray-500 font-medium font-sans pt-2">
+                        <span className="text-[5px] sm:text-xs text-gray-500 font-medium font-sans pt-2">
                             Royal Phoenicia Hotel offers an array of top-tier facilities designed to enhance the comfort and convenience of every guest. The hotel features a
                             luxurious spa and wellness center, where guests can indulge in soothing treatments and rejuvenating massages. For those seeking to maintain
                             their fitness routine, the fully equipped gym provides a space for exercise, while the outdoor pool offers a relaxing environment to unwind.
