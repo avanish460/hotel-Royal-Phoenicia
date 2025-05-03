@@ -34,7 +34,7 @@ function RoomPage() {
   return (
     <div className="bg-orange-50">
       <div className="bg-gray-50">
-        <div className="flex justify-center w-full -mt-65 md:-mt-0 h-40 sm:h-50 md:h-60">
+        <div className="flex justify-center w-full -mt-105 md:-mt-0 h-40 sm:h-50 md:h-60">
           <div className="mt-20 md:mt-0">
             <NumberButton number={"I"} className={"text-gray-400 font-serif"} />
           </div>

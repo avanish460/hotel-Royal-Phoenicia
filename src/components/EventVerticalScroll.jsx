@@ -14,7 +14,7 @@ function EventVerticalScroll(){
         msOverflowStyle: 'none', 
         }}
     >
-        <div className="absolute flex justify-center w-110 h-180 sm:w-160 sm:h-120 md:w-240 md:h-130 lg:w-320 lg:h-140 -mt-15 sm:-mt-33 md:-mt-40 p-2">
+        <div className="absolute flex justify-center w-110 h-230 sm:w-160 sm:h-120 md:w-240 md:h-130 lg:w-320 lg:h-140 -mt-15 sm:-mt-33 md:-mt-40 p-2">
             <Card>
                 <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-serif text-black tracking-wider pb-2">For Companies</h1>
                 <p className="text-[6px] sm:text-[8px] md:text-[11px] lg:text-xs">
@@ -23,7 +23,7 @@ function EventVerticalScroll(){
                 <HoverBtn imgUrl={arrowBtn} title={"More"} className1={"px-1 py-1 sm:px-2 sm:py-1 mt-4 sm:mt-5"} className="left-2 sm:left-0 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
             </Card>
         </div>
-        <div className="absolute flex justify-center w-110 h-180 sm:w-160 sm:h-120 md:w-240 md:h-130 lg:w-320 lg:h-140 mt-100">
+        <div className="absolute flex justify-center w-110 h-230 sm:w-160 sm:h-120 md:w-240 md:h-130 lg:w-320 lg:h-140 mt-100">
             <Card>
                 <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-serif text-black">Family gatherings</h1>
                 <p className="text-[6px] sm:text-[8px] md:text-[11px] lg:text-xs pt-2">
