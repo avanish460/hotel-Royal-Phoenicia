@@ -67,7 +67,7 @@ function RoomPage() {
         </div>
         
       </div>
-      <div className="absolute -bottom-135 sm:-bottom-150 md:-bottom-170 left-0 w-full h-15 bg-gradient-to-t from-orange-50 to-transparent" />
+      <div className="absolute -bottom-105 sm:-bottom-150 md:-bottom-170 left-0 w-full h-15 bg-gradient-to-t from-orange-50 to-transparent" />
       
 
       <div className="relative flex justify-center h-screen p-4 sm:p-8 md:p-12 lg:p-20">
@@ -98,7 +98,7 @@ function RoomPage() {
           <p className="text-[5px] sm:text-xs md:text-sm lg:text-[16px]">Family-Friendly Amenities</p>
         </Card>
       </div>
-      <div className="w-full bg-orange-50 -mt-30 sm:-mt-30 md:mt-40">
+      <div className="w-full bg-orange-50 -mt-120 sm:-mt-30 md:mt-40">
         <HotelPage />
       </div>
     </div>
